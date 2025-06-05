@@ -1,0 +1,81 @@
+/* 공통 */
+p, dd{word-break:keep-all;}
+.pc{display:block !important;}
+.mob{display:none !important;}
+.inner{max-width:1600px; margin:0 auto;}
+
+
+/* HEADER */
+.header{height:80px; padding:0 40px; position:fixed; top:0; z-index:100; width:100%;}
+.header .inner{height:100%; display:flex; align-items:center; justify-content:space-between;}
+.header .inner > div{display:flex; align-items:center;}
+.header h1 a img{width: 200px; display: block;}
+.header h1 a img.logo_ov{display:none;}
+.header .gnb{display:flex; gap:90px;}
+.header .gnb > li{position:relative;}
+.header .gnb > li > a{font-size: 18px; color: #FFF; font-weight: 500; letter-spacing: -1px;}
+.header .gnb_2depth_bg {position:absolute; width:100%; height: 255px; background: #FFF; bottom:-255px; left:0; overflow: hidden; display:none;}
+.header .gnb_2depth_bg .inner{position:relative;}
+.header .gnb_2depth{position:absolute; top:100px; display:none;}
+.header .gnb_2depth li + li{margin-top:15px;}
+.header .gnb_2depth li a{font-size: 18px;}
+
+.all_menu_btn{width: 30px; cursor:pointer;}
+.head_mob_btn{display:none !important;}
+.head_bg{display:none !important;}
+
+.header:hover{background: #FFF;}
+.header:hover h1 a img.logo{display:none;}
+.header:hover h1 a img.logo_ov{display:block;}
+.header:hover .gnb > li > a{color: #000;}
+.header:hover .gnb_2depth{display:block;}
+.header:hover .gnb_2depth_bg{display:block;}
+.header:hover .all_menu_btn{filter:invert(1);}
+
+.header.on,
+.header.fixed{background: #FFF;}
+.header.on h1 a img.logo,
+.header.fixed h1 a img.logo{display:none;}
+.header.on h1 a img.logo_ov,
+.header.fixed h1 a img.logo_ov{display:block;}
+.header.on .gnb > li > a,
+.header.fixed .gnb > li > a{color: #000;}
+.header.on .all_menu_btn,
+.header.fixed .all_menu_btn{filter:invert(1);}
+
+/* all menu */
+.all_menu{display:none; position:fixed; width:100%; height:100%; z-index:5000; background: rgba(255, 255, 255, 0.95);}
+.all_menu .inner{position:relative;}
+.all_menu_close{position:absolute; right:0; top:115px; width:18px; cursor:pointer;}
+.all_menu_close img{width:100%;}
+.all_menu .title{padding-top:195px; font-size:50px; font-weight:800;}
+.all_menu_list{margin-top:100px; display:flex;}
+.all_menu_list dl{width:20%;}
+.all_menu_list dl + dl{border-left:1px solid rgba(255, 255, 255, 0.20); padding-left:40px;}
+.all_menu_list dt{font-size:35px; font-weight:700; margin-bottom:20px;}
+.all_menu_list dd + dd{margin-top:10px;}
+.all_menu_list dd a{font-size:20px;}
+
+
+
+@media screen and (max-width:1600px){
+
+
+
+}
+
+
+
+@media screen and (max-width:1280px){
+
+
+
+}
+
+
+
+@media screen and (max-width:768px){
+
+
+
+}
