@@ -6,7 +6,10 @@
 ?>	
 
 <style>
-.test03 {padding:50px; border:1px solid red; margin:20px 0;}
+	/* css 수정 */
+	.test02 {padding:50px; border:1px solid blue; margin:20px 0;}
+
+	.test03 {padding:50px; border:1px solid red; margin:20px 0;}
 </style>
 
 <div class="test test01">testtst</div>
