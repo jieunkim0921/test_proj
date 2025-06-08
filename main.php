@@ -6,6 +6,7 @@
 ?>	
 
 <div class="test">testtst</div>
+<div class="test">25.06.08 수정</div>
 
 <style>
 	.test{width:50px; height:50px; background-image:url(http://dpunchlab.co.kr/adm/img/settings.svg?ic=check) no-repeat;}
